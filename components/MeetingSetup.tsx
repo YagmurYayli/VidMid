@@ -1,6 +1,5 @@
 'use client'
 import { DeviceSettings, useCall, VideoPreview } from '@stream-io/video-react-sdk'
-import { Secular_One } from 'next/font/google'
 import React, { useEffect, useState } from 'react'
 import { Button } from './ui/button'
 

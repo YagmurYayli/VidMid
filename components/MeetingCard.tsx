@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { Button } from "./ui/button";
-import { avatarImages } from "@/constants";
 import { toast } from "sonner";
 
 interface MeetingCardProps {
@@ -27,12 +26,7 @@ const MeetingCard = ({
   link,
   buttonText,
 }: MeetingCardProps) => {
-  const handleJoinClick = () => {
-    toast("Joining the meeting...");
-    handleClick();
-  }
-
-
+ 
   return (
     <section className="flex min-h-[258px] w-full flex-col justify-between rounded-[14px] bg-[#1C1F2E] px-5 py-8 xl:max-w-[568px]">
       <article className="flex flex-col gap-5">
